@@ -1,0 +1,33 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "helper/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body{
+    font-family: Microsoft JhengHei,Georgia, 'Times New Roman', Times, serif;
+}
+
+.bg-cover{
+    background-size: cover;
+    background-position: center center;   
+}
+
+.jumbotron-bg{
+    background-image: url(../image/banner.png);
+    min-height: 400px;
+}
+
+.alert-rounded{
+     border-radius: 50px;
+}
+
+.btn-cart{
+    background: transparent;
+    position: relative;
+    .badge{
+        position: absolute;
+        top: -1px;
+        right: -1px;
+    }
+}
